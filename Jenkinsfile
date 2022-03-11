@@ -7,6 +7,5 @@ node('built-in')
     stage('Continuous Build') 
 	{
     sh label: '', script: 'mvn package'
-	
-}
+	}
 }
